@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
- mode: 'development',
+ mode: 'production',
  entry: {
   home: './src/js/home.js',
   general: './src/js/general.js',
