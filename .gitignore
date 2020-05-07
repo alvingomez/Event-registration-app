@@ -72,3 +72,7 @@ functions/
 
 #JSON
 package-lock.jason
+
+#gitflow
+gitflow
+gitflow-installer.sh
