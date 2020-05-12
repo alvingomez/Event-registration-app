@@ -21,7 +21,10 @@ body {
 /* Small devices (portrait tablets and large phones, 736px and up) */
 @media only screen and (max-width: 736px){
   .form-group {
-    min-width:90vw;
-    background:green;
+    min-width:90vw;    
   }
+}
+.loading-indicator{
+  max-height:50px;
+  max-width:50px;
 }
