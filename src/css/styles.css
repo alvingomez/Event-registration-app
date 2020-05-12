@@ -24,6 +24,8 @@ body {
     min-width:90vw;    
   }
 }
+/*Image is used on both index and status html pages.
+  Specified a size for the image without breaking its original aspect ratio */
 .loading-indicator{
   max-height:50px;
   max-width:50px;
