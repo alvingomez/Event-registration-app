@@ -1,3 +1,19 @@
 body {
   padding-top: 65px;
 }
+
+/*Aligning the form and it's title to the center of the page */
+.form-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+/*Adding margin to the title and set minimum width for the form*/
+.title{
+  margin: 20px;
+}
+.form-group {
+  min-width: 500px;
+}
