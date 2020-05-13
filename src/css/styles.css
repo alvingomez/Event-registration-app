@@ -1,3 +1,32 @@
 body {
   padding-top: 65px;
 }
+
+/*Aligning the form and it's title to the center of the page */
+.form-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+/*Adding margin to the title and set minimum width for the form*/
+.title{
+  margin: 20px;
+}
+.form-group {
+  min-width: 500px;
+}
+
+/* Small devices (portrait tablets and large phones, 736px and up) */
+@media only screen and (max-width: 736px){
+  .form-group {
+    min-width:90vw;    
+  }
+}
+/*Image is used on both index and status html pages.
+  Specified a size for the image without breaking its original aspect ratio */
+.loading-indicator{
+  max-height:50px;
+  max-width:50px;
+}
