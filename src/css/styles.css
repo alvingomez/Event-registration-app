@@ -17,3 +17,16 @@ body {
 .form-group {
   min-width: 500px;
 }
+
+/* Small devices (portrait tablets and large phones, 736px and up) */
+@media only screen and (max-width: 736px){
+  .form-group {
+    min-width:90vw;    
+  }
+}
+/*Image is used on both index and status html pages.
+  Specified a size for the image without breaking its original aspect ratio */
+.loading-indicator{
+  max-height:50px;
+  max-width:50px;
+}
